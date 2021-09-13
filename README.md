@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Cathy Moran's Portfolio
+## Purpose/ Over all to-do's
+I want HR manager to see I have basic experience and can grow within the organization because I put a lot of time and commitment into my work. Willing to learn and grow, as this is my new career.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I want a mid-level engineer to look at my code and see it is easy to read, organized and not confusing. When it is confusing, I should include short explanation of what that block of code does.
 
-## Available Scripts
+I will write a short blurb about each project. Describing what it does and why, so that a friend can understand what I do as a developer and what I created.
 
-In the project directory, you can run:
+## Projects (in no particular order...yet)
+**Destination Unknown (projet 3)**
+Questions about the MERN Stack and improvements needed to my project?
 
-### `npm start`
+Relational Databases:
+- Still unable to connect the dots between 2 databases. I need to be able to update and delete comments in both modules.
+- If I want to edit or delete a comment, this form pops up for all the comments. I only want it to pop up for the one specific comment. I believe this has something to do with me not referencing it correctly.
+- Currently I am using an if statement to display comments related to it's specific destination. I feel there is a better/concise way.
+- On each destination's show page, I only want to display up to 2 commits, then have a 'more' button for the rest. I did this, but am not targeting the commits array correctly, mainly because I'm using the weird if statement.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Map/if/for loops in the return statement:
+- What are the exact rules? When can I use what?
 
-### `npm test`
+React Context or useReducer:
+- I need to clean up my props and need to fully understand options to pass state to grandparent/siblings.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Third Party API:
+- I need to create a default for when a user types in a city that the API does not have. Currently, it throws an error but user doesn't know what is going on. Need to figure out how to catch that error and when it happens, display a statement saying "option not found." I don't know how to do this.
 
-### `npm run build`
+- Need to fix api call from https to https
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+General Questions about MERN stack:
+  - Honestly, I couldn’t explain what Client side rendering is vs server side rendering.  
+  - When to use controlled forms vs uncontrolled forms.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+More updates needed to this project:
+  - format the data/timestamp
+  - scroll to appropriate place when form pops up
+  - add 'Add Destination' to the Nav bar
+  - Have a default image in the instance when user adds destination but doesn't have image.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      maybe's
+        - scrolling back button/link?
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Under the Sea eCommerce Store(project 2)**
+To Do's
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Man on an Island (project 1)**
+To Do's
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Project (TBD)**
+To Do's
