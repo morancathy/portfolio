@@ -8,10 +8,10 @@ export default function Footer(props) {
         <p>@ Cathy Moran 2021 <span>~never stop exploring~</span></p>
       </div>
       <div className="footer-links">
-        <a className="link" href='https://www.linkedin.com/in/morancathy/' target="_blank">
+        <a className="link" href='https://www.linkedin.com/in/morancathy/' target="_blank" rel="noreferrer">
           <img src="/img/linkedin.svg" alt="linkedin"/>
         </a>
-      <a className="link" href='https://github.com/morancathy' target="_blank">
+      <a className="link" href='https://github.com/morancathy' target="_blank" rel="noreferrer">
         <img src="/img/GitHub.png" alt="github"/>
       </a>
         <p>Resume</p>
