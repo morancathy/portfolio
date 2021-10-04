@@ -38,8 +38,9 @@ More updates needed to this project:
   - add 'Add Destination' to the Nav bar
   - Have a default image in the instance when user adds destination but doesn't have image.
 
-      maybe's
-        - scrolling back button/link?
+  maybe's
+    - page displays appropriate place when forms pop up
+    - scrolling back button/link?
 
 
 **Under the Sea eCommerce Store(project 2)**
