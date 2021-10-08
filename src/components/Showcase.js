@@ -11,8 +11,7 @@ export default function Showcase(props) {
 
 
   return (
-    <div className="Showcase">
-    <a id="top"></a>
+    <div className="Showcase" id="projects">
       <h2>Projects</h2>
       <div className="projects">
         <div className="project">
@@ -110,26 +109,26 @@ export default function Showcase(props) {
         </div>
 
         <div className="project">
-          <img  id="P3" src="/img/P3.png" alt="destination unknown"/>
+          <img  id="P1" src="/img/P1.png" alt="man on an island"/>
           <div className="info">
             <div className="info-text">
               <p> An interactive browser story-game made with vanilla JavaScript, CSS and HTML that manipulates the DOM. App allows users to choose-their-own-adventure to decide what character does each day in order to survive.</p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Techonolgies Used</p>
-              <div className="tec">
+              <div className="tec" id="P1-tec">
                 <p>vanilla JavaScript</p>
                 <p>CSS</p>
                 <p>HTML</p>
               </div>
               <div className="links">
-                <button id="P3-btn">
-                  <a style={{textDecoration: 'none'}} href="https://destination-unknown-moran.herokuapp.com/" target="_blank" rel="noreferrer">
-                    Demo
+                <button id="P1-btn">
+                  <a style={{textDecoration: 'none'}} href="https://man-on-an-island.herokuapp.com/" target="_blank" rel="noreferrer">
+                    Demo (desktop)
                   </a>
                 </button>
-                <button id="P3-btn">
-                  <a style={{textDecoration: 'none'}} href="https://github.com/morancathy/destination-unknown" target="_blank" rel="noreferrer">
+                <button id="P1-btn">
+                  <a style={{textDecoration: 'none'}} href="https://github.com/morancathy/SEIR-project-1" target="_blank" rel="noreferrer">
                     Source Code
                   </a>
                 </button>
