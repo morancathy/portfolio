@@ -4,8 +4,7 @@ export default function Skills(props) {
 
   return (
     <section>
-      <div className="Skills">
-        <a id="skills"></a>
+      <div className="Skills" id="skills">
           <h2>Skills</h2>
       </div>
       <div>
