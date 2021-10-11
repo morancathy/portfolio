@@ -3,24 +3,25 @@
 
 [Portfolio](https://moran-portfolio.herokuapp.com/)\
 [LinkedIn](https://www.linkedin.com/in/morancathy/)\
-[Email](morancathy@gmail.com)\
-[Resume](https://docs.google.com/document/d/1Qw0vjd9SDmVJQ1kxXa_XbPEBZSS47vO-s_8guvb_dIM/edit?usp=sharing)\
+[Email](mailto=morancathy@gmail.com)\
+[Resume](https://docs.google.com/document/d/1Qw0vjd9SDmVJQ1kxXa_XbPEBZSS47vO-s_8guvb_dIM/edit?usp=sharing)
 
 ## Projects
 **Destination Unknown**\
-A working full-stack application using the MERN stack (Node.js, MongoDB/Mongoose, Express, React). App highlights off-the-beaten-track destinations. Browse suggestions, create your own or search a 3rd party API.
+Full-stack MERN application (Node.js, MongoDB/Mongoose, Express, React). App highlights off-the-beaten-track destinations. Browse suggestions, create your own or search a 3rd party API.
 
 - Register under any name in order to make suggestions/edits/comments (no email necessary)
 
 **For Goodness Cakes**\
-Lead team of 4 developers in group project. Application emulates figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web application.  Site allows baker to showcase goods, update an announcement bulletin, receive Calendly consultation appointments, and receive emails of all orders and 'contact me' submissions. Site allows users to browse goods, schedule a consultation, submit an order and email the baker directly from the site.
+Lead team of 5 developers in group project.\
+Application emulates figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web application.  App allows baker to update an announcement bulletin, receive Calendly consultation appointments, and receive emails of all orders and 'contact me' submissions. Also includes Admin page for manipulation of site. App allows users to browse goods, schedule a consultation, submit an order and email the baker directly from the site.
 
 - Registration Form disabled for demo purposes.
 - Use 'demo' for both username and pw to check out Admin page.
 - Admin link located middle of the footer, in faint white.
 
 **Under the Sea eCommerce Store**\
-Multi-page application emulates an e-commerce store. User's can easily navigate through shop, adding items to a cart, which interacts with inventory. Users can create, edit and delete items.
+Multi-page application emulates e-commerce store. User's can easily navigate through shop, adding items to a cart, which interacts with inventory. Users can create, edit and delete items.
 
 **Man on an Island**\
 (desktop only, mobile version coming soon)

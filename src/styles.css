@@ -1,12 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Allison&family=Playfair+Display&family=Playfair+Display+SC&display=swap'); */
-/* background-color: #5D5C61;
-background-color: #379683;
-background-color: #7395AE;
-background-color: #557A95;
-background-color: #B1A296; */
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Ephesis&display=swap'); */
 
+html {
+  scroll-behavior: smooth;
+}
 h2 {
   font-size: calc(50px + 1vw);
   font-family: 'Ephesis', cursive;
@@ -18,44 +14,6 @@ h2 {
   background-color: #557A95;
   color: white;
   font-family: sans-serif;
-  /* width: 98vw; */
-}
-
-@media screen and (max-width: 1440px) {
-  .App {
-    max-width: 1440px;
-  }
-}
-
-.header {
-
-}
-
-.title {
-}
-.nav {
-  padding: 2% 10% 2% 15%;
-  /* padding: 2% 15% 2% 15%; */
-  background-color: #557A95;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.nav > a {
-  margin-left: 50px;
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-}
-@media screen and (max-width: 700px) {
-  .nav > a {
-    margin-left: 10px;
-    font-size: 15px;
-  }
-  .nav {
-    padding: 2% 2% 2% 0%;
-  }
 }
 /* ========================== About Me =====================================*/
 .about-me {
@@ -65,7 +23,6 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* width: 98vw; */
 }
 
 .about-me > img {
@@ -84,15 +41,10 @@ h2 {
   line-height: 1.3em;
   font-size: 18px;
   margin-bottom: -8px;
-  /* padding-right: 50px; */
 }
 
 .last-p {
   padding-bottom: 15px;
-}
-
-strong {
-  /* font-size: 30px; */
 }
 
 @media screen and (max-width: 700px) {
@@ -114,56 +66,36 @@ strong {
 }
 
 /* ========================== Skills =====================================*/
-/* <section className="Skills-section">
-  <div className="Skills" id="skills">
-      <h2>Skills</h2>
-  </div>
-  <div className="skills-p">
-    <p id="skills-p">
-  <div className="skills-imgs">
-    <img */
-
 .Skills-section{
   margin: 0 auto;
-  /* border: solid blue; */
-  /* padding: 0 18% 0 18%; */
-
 }
 
 .Skills {
   background-color: #557A95;
   color: white;
-  /* padding: 0 18% 0 18%; */
-  /* background-color: red; */
-    text-align: right;
-    padding-right: 25%;
-      padding-left: 25%;
+  text-align: right;
+  padding-right: 25%;
+  padding-left: 25%;
 }
 
 .Skills > h2 {
   margin-bottom: 30px;
-
-
-    /* border: solid red; */
 }
 .skills-p{
   text-align: right;
   padding-right: 25%;
-    padding-left: 25%;
+  padding-left: 25%;
 }
 #skills-p {
-    /* border: solid purple; */
   font-size: 25px;
   margin-top: -30px;
   margin-bottom: 0px;
   background-color: white;
   color: #557A95;
-  /* font-weight: bold; */
   padding: 1% 0% 2% 0%;
   background-color: #557A95;
   color: white;
-    font-size: 18px;
-
+  font-size: 18px;
 }
 
 .skills-imgs {
@@ -173,13 +105,10 @@ strong {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 28% 0 28%;
-  /* margin: 0 26% 0 18%; */
   border: solid #557A95;
   max-width: 1440px;
   min-height: 350px;
-  /* border: solid pink; */
-  padding-right: 25%;
-    padding-left: 25%;
+  padding: 0 25% 0 25%;
 }
 
 .skills-imgs > img {
@@ -196,13 +125,12 @@ strong {
     text-align: left;
   }
   .skills-p {
-    padding: 0 20% 0 20%;
+    padding: 0 20% 2% 20%;
     text-align: left;
   }
   #skills-p {
     font-size: calc(12px + 1vw);
   }
-
   .skills-imgs > img {
     width: 22%;
     margin: 8px;
@@ -211,14 +139,10 @@ strong {
 }
 
 /* ========================== Showcase =====================================*/
-
 .Showcase {
-  background-color: #557A95;
   color: white;
-  background-color: #B1A296;
   background-color: #5D5C61;
   padding-bottom: 20px;
-  /* border: solid #557A95; */
 }
 
 .Showcase > h2 {
@@ -232,13 +156,9 @@ strong {
   justify-content: space-around;
   margin:  0 11% 0 11%;
   margin-bottom: 200px;
-  /* border: solid red; */
 }
 
 .info {
-  /* border: solid yellow; */
-  /* vertical-align: text-top;
-  vertical-align: top; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -248,31 +168,14 @@ strong {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-
-.info-text {
-  /* border: solid purple; */
-  /* text-align: justify; */
-  /* vertical-align: text-top; */
-  vertical-align: text-bottom;
-  /* vertical-align: top; */
-  /* height: 100px; */
-    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
-}
-
 .info-text > p {
-    font-size: 17px;
-    line-height: 1.3em;
-    margin: 20px 20px 20px 20px;
-    /* border: solid blue; */
-}
-
-.info-tec {
-  /* border: solid red; */
+  font-size: 17px;
+  line-height: 1.3em;
+  margin: 20px 20px 20px 20px;
 }
 
 #tec-used {
   text-align: center;
-  /* border: solid purple; */
 }
 
 .tec {
@@ -299,16 +202,13 @@ strong {
   border: solid #D0BAC4;
 }
 .tec > p {
-  /* border: solid red; */
   margin: 10px;
-
 }
 .links{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-    margin: 0px 20px 0 20px;
-  /* border: solid black; */
+  margin: 0px 20px 0 20px;
 }
 #P3 {
   width: 765px;
@@ -317,7 +217,6 @@ strong {
 
 #P4 {
   width: 580px;
-  /* height: 620px; */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -336,7 +235,6 @@ button {
   font-size: 16px;
   color: white;
   border-radius: 25px;
-  /* border-color: inherit; */
   background-color: green;
 }
 button > a {
@@ -377,13 +275,18 @@ button:hover {
 .backtotop {
   text-align: center;
 }
-.backtotop > a > img {
+.backtotop > button > img:hover{
+    width: 50px;
+}
+.backtotop > button > img {
   width: 40px;
   margin-bottom: -10px;
 }
-.backtotop > a {
-  text-decoration: none;
+.backtotop > button {
   color: black;
+  background: none;
+  border: none;
+  margin-bottom: 10px;
 }
 
  @media screen and (max-width: 1400px) {
@@ -391,9 +294,8 @@ button:hover {
      margin-top: 70px;
    }
    .info {
-     /* border: solid yellow; */
      flex-direction: row;
-      width: 765px;
+     width: 765px;
    }
    .info-tec {
        margin-top: 50px;
@@ -421,15 +323,12 @@ button:hover {
    .info {
      width: 90vw;
      flex-direction: column;
-     /* margin-top: -20px; */
    }
    .info-tec {
       margin-top: 5px;
    }
    .info-text {
-  margin-top: -40px;
-     /* border: solid pink; */
-
+     margin-top: -40px;
    }
    .Showcase > h2 {
      font-size: calc(40px + 1vw);
@@ -438,9 +337,7 @@ button:hover {
      margin-bottom: 15px;
    }
  }
-
 /* ========================== Footer =====================================*/
-
 footer {
   padding: 2% 15% 2% 15%;
   background-color: #557A95;
@@ -455,6 +352,29 @@ footer {
   opacity: 0.07;
 }
 /* ========================== Nav ====================================*/
+.nav {
+  padding: 2% 10% 2% 15%;
+  background-color: #557A95;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav > a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+@media screen and (max-width: 700px) {
+  .nav > a {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .nav {
+    padding: 2% 2% 2% 0%;
+  }
+}
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -489,6 +409,17 @@ footer {
    margin-top: -2px;
 }
 
+.link > img:hover {
+ width: 50px;
+}
+.email > img:hover {
+  width: 57px;
+}
+.pdf > img:hover {
+  width: 45px;
+}
+
+
  @media screen and (max-width: 700px) {
    footer {
     flex-direction: column;
@@ -516,7 +447,5 @@ footer {
    }
    .email > p{
       margin-top: -2px;
-
    }
-
  }

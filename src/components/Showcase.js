@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Showcase(props) {
 
-  // window.scrollTo(0, 0);
-  window.scroll({
-  top: 0,
-  left: 0,
-  behavior: 'smooth'
-});
-
+  const up = () => {
+    window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+    })
+  };
 
   return (
     <div className="Showcase" id="projects">
@@ -21,7 +21,7 @@ export default function Showcase(props) {
               <p>Full-stack MERN application. App highlights off-the-beaten-track destinations. Browse suggestions, create your own or search a 3rd party API.</p>
             </div>
             <div className="info-tec">
-              <p id="tec-used">Techonolgies Used</p>
+              <p id="tec-used">Technologies Used</p>
               <div className="tec" id="P3-tec">
                 <p>MongoDB</p>
                 <p>Express</p>
@@ -50,10 +50,10 @@ export default function Showcase(props) {
           <img id="P4" src="/img/P4.1.png" alt="for goodness cakes"/>
           <div className="info">
             <div className="info-text">
-              <p>App designed to emulate figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web app. App includes admin page for manipulation and allows users to schedule a consultation, submit an order and email the baker directly from app forms. Team lead in group of 5 developers. </p>
+              <p>App emulates figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web app. App includes admin page for manipulation and allows users to schedule a consultation, submit an order and email the baker directly from app forms. Lead team of 5 developers in group project. </p>
             </div>
             <div className="info-tec">
-              <p id="tec-used">Techonolgies Used</p>
+              <p id="tec-used">Technologies Used</p>
               <div className="tec" id="P4-tec">
                 <p>MongoDB</p>
                 <p>Express</p>
@@ -86,7 +86,7 @@ export default function Showcase(props) {
               <p> Multi-page application emulates e-commerce store. Users can easily navigate through shop, adding items to cart, which interacts with inventory. Ability to create, edit and delete items</p>
             </div>
             <div className="info-tec">
-              <p id="tec-used">Techonolgies Used</p>
+              <p id="tec-used">Technologies Used</p>
               <div className="tec" id="P2-tec">
                 <p>Express</p>
                 <p>MongoDB</p>
@@ -115,7 +115,7 @@ export default function Showcase(props) {
               <p> An interactive browser story-game made with Vanilla JavaScript, CSS and HTML that manipulates the DOM. Users can choose-their-own-adventure to decide what character does each day in order to survive.</p>
             </div>
             <div className="info-tec">
-              <p id="tec-used">Techonolgies Used</p>
+              <p id="tec-used">Technologies Used</p>
               <div className="tec" id="P1-tec">
                 <p>Vanilla JavaScript</p>
                 <p>CSS</p>
@@ -138,10 +138,10 @@ export default function Showcase(props) {
         </div>
       </div>
       <div className="backtotop">
-        <a href="#top">
+        <button onClick={()=>up()}>
           <img src="/img/arrow.jpg" alt="linkedin"/>
-          <p>back to top</p>   
-        </a>
+          <p>back to top</p>
+        </button>
       </div>
     </div>
   )

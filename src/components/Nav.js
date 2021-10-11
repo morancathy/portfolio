@@ -10,11 +10,11 @@ export default function Nav(props) {
         <img src="/img/tag.png" alt="projects"/>
         <p>projects</p>
       </a>
-        <a className="link" href='https://www.linkedin.com/in/morancathy/' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
+        <a className="link linkedin" href='https://www.linkedin.com/in/morancathy/' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
           <img src="/img/linkedin.svg" alt="linkedin"/>
           <p>linkedin</p>
         </a>
-        <a className="link" href='https://github.com/morancathy' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
+        <a className="link github" href='https://github.com/morancathy' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
           <img src="/img/GitHub.png" alt="github"/>
           <p>github</p>
         </a>

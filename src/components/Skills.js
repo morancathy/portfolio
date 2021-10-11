@@ -8,7 +8,7 @@ export default function Skills(props) {
           <h2>Skills</h2>
       </div>
       <div className="skills-p">
-        <p id="skills-p">Striving to continously learn, below are a few items I have experience with...</p>
+        <p id="skills-p">Striving to continuously learn, below are a few items I have experience with...</p>
       </div>
       <div className="skills-imgs">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express"/>
