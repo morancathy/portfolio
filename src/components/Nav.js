@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 export default function Nav(props) {
 
@@ -19,20 +19,15 @@ export default function Nav(props) {
           <p>github</p>
         </a>
 
-          <a className="link email" href='' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
+          <a className="link email" href="mailto:morancathy@gmail.com" target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
             <img src="/img/email.png" alt="email"/>
             <p>contact</p>
           </a>
-          <a className="link pdf" href='' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
+          <a className="link pdf" href='https://drive.google.com/file/d/1g9clTE_pHuFO579KKFOdIsUN_WH_sXfB/view?usp=sharing' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
             <img src="/img/pdf.png" alt="resume"/>
             <p>resume</p>
           </a>
-
       </div>
-
-
-
-
     </nav>
     </>
   )

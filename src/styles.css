@@ -21,8 +21,9 @@ h2 {
   /* width: 98vw; */
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 1440px) {
   .App {
+    max-width: 1440px;
   }
 }
 
@@ -59,7 +60,7 @@ h2 {
 /* ========================== About Me =====================================*/
 .about-me {
   background-color: #5D5C61;
-  padding: 5% 0 5% 0;
+  padding: 5% 7% 5% 7%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -72,16 +73,26 @@ h2 {
 }
 
 .about-me > .about-me-text {
-  width: 600px;
+  width: 440px;
   padding-left: 30px;
   font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .about-me-text > p {
   line-height: 1.3em;
+  font-size: 18px;
+  margin-bottom: -8px;
+  /* padding-right: 50px; */
+}
+
+.last-p {
+  padding-bottom: 15px;
 }
 
 strong {
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 @media screen and (max-width: 700px) {
@@ -91,56 +102,110 @@ strong {
   .about-me > .about-me-text{
     margin-left: 10vw;
     margin-right: 10vw;
-    font-size: calc(15px + 1vw);
     padding-left: 0px;
+  }
+  .about-me-text > p {
+    font-size: calc(12px + 1vw);
+  }
+  .about-me-text > h2 {
+    font-size: calc(40px + 1vw);
+    margin-bottom: 1px;
   }
 }
 
 /* ========================== Skills =====================================*/
+/* <section className="Skills-section">
+  <div className="Skills" id="skills">
+      <h2>Skills</h2>
+  </div>
+  <div className="skills-p">
+    <p id="skills-p">
+  <div className="skills-imgs">
+    <img */
+
+.Skills-section{
+  margin: 0 auto;
+  /* border: solid blue; */
+  /* padding: 0 18% 0 18%; */
+
+}
+
 .Skills {
   background-color: #557A95;
   color: white;
-  padding: 0 18% 0 18%;
+  /* padding: 0 18% 0 18%; */
+  /* background-color: red; */
+    text-align: right;
+    padding-right: 25%;
+      padding-left: 25%;
 }
 
 .Skills > h2 {
-  margin-bottom: -30px;
-}
+  margin-bottom: 30px;
 
+
+    /* border: solid red; */
+}
+.skills-p{
+  text-align: right;
+  padding-right: 25%;
+    padding-left: 25%;
+}
 #skills-p {
+    /* border: solid purple; */
   font-size: 25px;
-  /* margin-top: -30px; */
+  margin-top: -30px;
   margin-bottom: 0px;
   background-color: white;
   color: #557A95;
   /* font-weight: bold; */
-  padding: 2% 18% 2% 18%;
-
+  padding: 1% 0% 2% 0%;
   background-color: #557A95;
   color: white;
+    font-size: 18px;
+
 }
 
-.imgs {
+.skills-imgs {
   background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 16% 0 16%;
+  padding: 0 28% 0 28%;
+  /* margin: 0 26% 0 18%; */
+  border: solid #557A95;
+  max-width: 1440px;
+  min-height: 350px;
+  /* border: solid pink; */
+  padding-right: 25%;
+    padding-left: 25%;
 }
 
-.imgs > img {
-  width: 90px;
-  padding: 35px;
+.skills-imgs > img {
+  width: 75px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 700px) {
-  .Skills > p {
-    font-size: calc(15px + 1vw);
+  .Skills {
+    padding: 0 20% 0 20%;
   }
-  .imgs > img {
+  .Skills > h2 {
+    font-size: calc(40px + 1vw);
+    text-align: left;
+  }
+  .skills-p {
+    padding: 0 20% 0 20%;
+    text-align: left;
+  }
+  #skills-p {
+    font-size: calc(12px + 1vw);
+  }
+
+  .skills-imgs > img {
     width: 22%;
-    margin: 10px;
+    margin: 8px;
     padding: 0;
   }
 }
@@ -153,6 +218,7 @@ strong {
   background-color: #B1A296;
   background-color: #5D5C61;
   padding-bottom: 20px;
+  /* border: solid #557A95; */
 }
 
 .Showcase > h2 {
@@ -171,21 +237,32 @@ strong {
 
 .info {
   /* border: solid yellow; */
+  /* vertical-align: text-top;
+  vertical-align: top; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 310px;
-  height: auto;
+  height: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
 .info-text {
   /* border: solid purple; */
+  /* text-align: justify; */
+  /* vertical-align: text-top; */
+  vertical-align: text-bottom;
+  /* vertical-align: top; */
+  /* height: 100px; */
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
 .info-text > p {
-    font-size: 21px;
-    margin: 20px 0px 20px 20px;
+    font-size: 17px;
+    line-height: 1.3em;
+    margin: 20px 20px 20px 20px;
     /* border: solid blue; */
 }
 
@@ -239,7 +316,8 @@ strong {
 }
 
 #P4 {
-  width: 618px;
+  width: 580px;
+  /* height: 620px; */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -296,10 +374,17 @@ button:hover {
   background-color: #D0BAC4;
 }
 
-/* button > a:hover {
-  color: #557884;
-} */
-
+.backtotop {
+  text-align: center;
+}
+.backtotop > a > img {
+  width: 40px;
+  margin-bottom: -10px;
+}
+.backtotop > a {
+  text-decoration: none;
+  color: black;
+}
 
  @media screen and (max-width: 1400px) {
    .projects > div > .info > .info-text > p {
@@ -324,21 +409,33 @@ button:hover {
    }
  }
  @media screen and (max-width: 700px) {
+
    .projects > div > .info > .info-text > p {
-     font-size: calc(15px + 1vw);
+     font-size: calc(12px + 1vw);
    }
 
-   #P3, #P2, #p4, #P1 {
+   #P3, #P2, #P4, #P1 {
      width: 90vw;
    }
 
    .info {
      width: 90vw;
      flex-direction: column;
-     margin-top: -20px;
+     /* margin-top: -20px; */
    }
    .info-tec {
-      margin-top: 10px;
+      margin-top: 5px;
+   }
+   .info-text {
+  margin-top: -40px;
+     /* border: solid pink; */
+
+   }
+   .Showcase > h2 {
+     font-size: calc(40px + 1vw);
+     text-align: left;
+     padding-top: 35px;
+     margin-bottom: 15px;
    }
  }
 

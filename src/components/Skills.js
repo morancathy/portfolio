@@ -3,14 +3,14 @@ import React from 'react';
 export default function Skills(props) {
 
   return (
-    <section>
+    <section className="Skills-section">
       <div className="Skills" id="skills">
           <h2>Skills</h2>
       </div>
-      <div>
+      <div className="skills-p">
         <p id="skills-p">Striving to continously learn, below are a few items I have experience with...</p>
       </div>
-      <div className="imgs">
+      <div className="skills-imgs">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodjs" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react"/>

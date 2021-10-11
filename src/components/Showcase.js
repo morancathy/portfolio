@@ -18,7 +18,7 @@ export default function Showcase(props) {
           <img  id="P3" src="/img/P3.png" alt="destination unknown"/>
           <div className="info">
             <div className="info-text">
-              <p> A working full-stack application using the MERN stack. App highlights off-the-beaten-track destinations. Browse suggestions, create your own or search a 3rd party API.</p>
+              <p>Full-stack MERN application. App highlights off-the-beaten-track destinations. Browse suggestions, create your own or search a 3rd party API.</p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Techonolgies Used</p>
@@ -47,10 +47,10 @@ export default function Showcase(props) {
         </div>
 
         <div className="project">
-          <img id="P4" src="/img/P4.png" alt="for goodness cakes"/>
+          <img id="P4" src="/img/P4.1.png" alt="for goodness cakes"/>
           <div className="info">
             <div className="info-text">
-              <p>Lead team of 4 developers in group project. Designed app to emulate figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web app. App includes admin page for manipulation and site allows users to browse goods, schedule a consultation, submit an order and email the baker directly from the site.</p>
+              <p>App designed to emulate figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web app. App includes admin page for manipulation and allows users to schedule a consultation, submit an order and email the baker directly from app forms. Team lead in group of 5 developers. </p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Techonolgies Used</p>
@@ -65,7 +65,7 @@ export default function Showcase(props) {
               </div>
               <div className="links">
                 <button id="P4-btn">
-                  <a style={{textDecoration: 'none'}} href="https://for-goodness-cakes-by-saira.herokuapp.com" target="_blank" rel="noreferrer">
+                  <a style={{textDecoration: 'none'}} href="https://moran-for-goodness-cakes.herokuapp.com/" target="_blank" rel="noreferrer">
                     Demo
                   </a>
                 </button>
@@ -83,7 +83,7 @@ export default function Showcase(props) {
           <img id="P2" src="/img/P2.png" alt="under the sea"/>
           <div className="info">
             <div className="info-text">
-              <p> Multi-page application emulates an e-commerce store. User's can easily navigate through shop, adding items to a cart, which interacts with inventory. Users can create, edit and delete items</p>
+              <p> Multi-page application emulates e-commerce store. Users can easily navigate through shop, adding items to cart, which interacts with inventory. Ability to create, edit and delete items</p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Techonolgies Used</p>
@@ -112,12 +112,12 @@ export default function Showcase(props) {
           <img  id="P1" src="/img/P1.png" alt="man on an island"/>
           <div className="info">
             <div className="info-text">
-              <p> An interactive browser story-game made with vanilla JavaScript, CSS and HTML that manipulates the DOM. App allows users to choose-their-own-adventure to decide what character does each day in order to survive.</p>
+              <p> An interactive browser story-game made with Vanilla JavaScript, CSS and HTML that manipulates the DOM. Users can choose-their-own-adventure to decide what character does each day in order to survive.</p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Techonolgies Used</p>
               <div className="tec" id="P1-tec">
-                <p>vanilla JavaScript</p>
+                <p>Vanilla JavaScript</p>
                 <p>CSS</p>
                 <p>HTML</p>
               </div>
@@ -137,7 +137,12 @@ export default function Showcase(props) {
           </div>
         </div>
       </div>
-      <a href="#top">Jump to top of page</a>
+      <div className="backtotop">
+        <a href="#top">
+          <img src="/img/arrow.jpg" alt="linkedin"/>
+          <p>back to top</p>   
+        </a>
+      </div>
     </div>
   )
 };
