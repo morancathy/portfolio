@@ -4,7 +4,7 @@
 [Portfolio](https://moran-portfolio.herokuapp.com/)\
 [LinkedIn](https://www.linkedin.com/in/morancathy/)\
 [Email](morancathy@gmail.com)\
-[Resume](coming soon....)\
+[Resume](https://docs.google.com/document/d/1Qw0vjd9SDmVJQ1kxXa_XbPEBZSS47vO-s_8guvb_dIM/edit?usp=sharing)\
 
 ## Projects
 **Destination Unknown**\
