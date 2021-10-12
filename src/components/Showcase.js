@@ -48,7 +48,8 @@ export default function Showcase(props) {
           <img id="P4" src="/img/P4.1.png" alt="for goodness cakes"/>
           <div className="info">
             <div className="info-text">
-              <p>App emulates figma hand-off from UX team with idea of turning a bakery’s Instagram into a working web app. App includes admin page for manipulation and allows users to schedule a consultation, submit an order and email the baker directly from app forms. Lead team of 5 developers in group project. </p>
+              <p>App emulates figma hand-off from UX team with purpose of turning a bakery’s Instagram into a working web app. Includes admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Also stores all form submissions (orders and 'contact me') in addition to being sent directly to baker's email. App also allows users to schedule a consultation via Calendly.</p>
+              <p>Team lead of 5 developers in group project. </p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Technologies Used</p>
@@ -63,7 +64,7 @@ export default function Showcase(props) {
               </div>
               <div className="links">
                 <button id="P4-btn">
-                  <a style={{textDecoration: 'none'}} href="https://moran-for-goodness-cakes.herokuapp.com/" target="_blank" rel="noreferrer">
+                  <a style={{textDecoration: 'none'}} href="https://github.com/morancathy/for-goodness-cakes" target="_blank" rel="noreferrer">
                     Demo
                   </a>
                 </button>
@@ -81,7 +82,7 @@ export default function Showcase(props) {
           <img id="P2" src="/img/P2.png" alt="under the sea"/>
           <div className="info">
             <div className="info-text">
-              <p> Multi-page application emulates e-commerce store. Users can easily navigate through shop, adding items to cart, which interacts with inventory. Ability to create, edit and delete items</p>
+              <p>Full CRUD, multi-page application emulates e-commerce store. Users can easily navigate through shop, adding items to cart, which interacts with inventory. Ability to create, edit and delete items.</p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Technologies Used</p>
@@ -110,7 +111,7 @@ export default function Showcase(props) {
           <img  id="P1" src="/img/P1.png" alt="man on an island"/>
           <div className="info">
             <div className="info-text">
-              <p> An interactive browser story-game made with Vanilla JavaScript, CSS and HTML that manipulates the DOM. Users can choose-their-own-adventure to decide what character does each day in order to survive.</p>
+              <p> An interactive browser story-game made with Vanilla JavaScript, CSS and HTML that manipulates the DOM. Users choose-their-own-adventure to decide what character does each day to survive.</p>
             </div>
             <div className="info-tec">
               <p id="tec-used">Technologies Used</p>

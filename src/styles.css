@@ -104,11 +104,11 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 28% 0 28%;
+
   border: solid #557A95;
   max-width: 1440px;
   min-height: 350px;
-  padding: 0 25% 0 25%;
+  padding: 0 24% 0 24%;
 }
 
 .skills-imgs > img {
