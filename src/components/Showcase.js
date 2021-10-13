@@ -48,7 +48,7 @@ export default function Showcase(props) {
           <img id="P4" src="/img/P4.1.png" alt="for goodness cakes"/>
           <div className="info">
             <div className="info-text">
-              <p>App emulates figma hand-off from UX team with purpose of turning a bakery’s Instagram into a working web app. Includes admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Also stores all form submissions (orders and 'contact me') in addition to being sent directly to baker's email. App also allows users to schedule a consultation via Calendly.</p>
+              <p>App emulates figma hand-off from UX team with purpose of turning a bakery’s Instagram into a working web app. Includes admin page allowing baker to manipulate announcement bulletin and app calendar for availability. Admin also stores all form submissions (orders and 'contact me') in addition to being sent directly to baker's email. App allows users to schedule a consultation via Calendly.</p>
               <p>Team lead of 5 developers in group project. </p>
             </div>
             <div className="info-tec">
