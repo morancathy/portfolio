@@ -64,12 +64,12 @@ export default function Showcase(props) {
               </div>
               <div className="links">
                 <button id="P4-btn">
-                  <a style={{textDecoration: 'none'}} href="https://github.com/morancathy/for-goodness-cakes" target="_blank" rel="noreferrer">
+                  <a style={{textDecoration: 'none'}} href="https://moran-for-goodness-cakes.herokuapp.com/" target="_blank" rel="noreferrer">
                     Demo
                   </a>
                 </button>
                 <button id="P4-btn">
-                  <a style={{textDecoration: 'none'}} href="https://github.com/students-random/for-goodness-cakes" target="_blank" rel="noreferrer">
+                  <a style={{textDecoration: 'none'}} href="https://github.com/morancathy/for-goodness-cakes" target="_blank" rel="noreferrer">
                     Source Code
                   </a>
                 </button>

@@ -3,7 +3,7 @@
 
 [Portfolio](https://moran-portfolio.herokuapp.com/)\
 [LinkedIn](https://www.linkedin.com/in/morancathy/)\
-[Resume](https://drive.google.com/file/d/1g9clTE_pHuFO579KKFOdIsUN_WH_sXfB/view?usp=sharing)
+[Resume](https://docs.google.com/document/d/1Qw0vjd9SDmVJQ1kxXa_XbPEBZSS47vO-s_8guvb_dIM/edit?usp=sharing)
 
 ## Projects
 **Destination Unknown**\

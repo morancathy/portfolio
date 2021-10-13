@@ -24,7 +24,7 @@ export default function Nav(props) {
           <img src="/img/email.png" alt="email"/>
           <p>contact</p>
         </a>
-        <a className="link pdf" href='https://drive.google.com/file/d/14mVfUUTOzak5XHyvP2n-KaA0MPuTpDni/view?usp=sharing' target="_blank" rel="noreferrer">
+        <a className="link pdf" href='https://docs.google.com/document/d/1Qw0vjd9SDmVJQ1kxXa_XbPEBZSS47vO-s_8guvb_dIM/edit?usp=sharing' target="_blank" rel="noreferrer">
           <img src="/img/pdf.png" alt="resume"/>
           <p>resume</p>
         </a>
