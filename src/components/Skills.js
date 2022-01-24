@@ -37,14 +37,3 @@ export default function Skills(props) {
     </section>
   )
 };
-
-// <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg" />
-// <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original.svg" />
-// <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
-  // <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" />
-  // <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-plain-wordmark.svg" />
-//above are diff formats
-//below is what I need to add after more practice
-  // <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="django"/>
-  // <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg" alt="vue" />
-  // <img id="svelte" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original-wordmark.svg" alt="svelte"/>
